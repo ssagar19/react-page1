@@ -1,0 +1,105 @@
+.App{
+    height: 100vh;
+    width:100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    
+}
+.rightSide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Sidebar{
+    height: 100%;
+    width:350px;
+    background-color: #2f4050;
+}
+.SidebarList{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.SidebarList .row:nth-of-type(1){
+    width: 100%;
+    height:65px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.SidebarList .row:last-of-type #title {
+text-decoration: underline;
+
+}
+.SidebarList .row{
+    
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid whitesmoke;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.row #icon{
+    flex:10%;
+    place-items: center;
+    text-align: center;
+}
+.row #title {
+    padding-left: 10px;
+    flex: 90%;
+    text-align: left;
+}
+
+.SidebarList .row:hover{
+    cursor: pointer;
+    background-color: #293846;
+}
+
+
+.aligner{
+    padding-left: 10px;
+    position: relative;
+    bottom: 7px;
+}
+.circleImg{
+    border-radius: 50%;
+
+}
+.bottom{
+    height: 150px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(241, 241, 241);
+}
+.cards{
+    justify-content: flex-start;
+    height: 100%;
+    width:50%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+}
+.divider{
+    padding: 5px;
+    display: flex;
+}
+.leftCard span{
+    color: rgb(10, 160, 206);
+    font-size: 12px;
+    font-weight: bolder;
+    padding-left: 15px;
+     padding-bottom: 2px;
+}
+
+.leftCard .MuiSvgIcon-root {
+    color: grey;
+   
+}
